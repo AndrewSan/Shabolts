@@ -11,8 +11,8 @@ namespace Shabolts
             Console.WriteLine("  Периметр фiгури - " + P);
             Console.WriteLine("  Площа фiгури - " + S);
         }
-        abstract public int Cal_P();
-        abstract public int Cal_S();
+        abstract public double Cal_P(double x, double y);
+        abstract public double Cal_S(double x, double y);
 
         protected double P;
         protected double S;

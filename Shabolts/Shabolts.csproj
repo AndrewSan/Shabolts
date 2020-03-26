@@ -5,4 +5,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Abiturient.cs" />
+    <Compile Remove="Circle.cs" />
+    <Compile Remove="Figure.cs" />
+    <Compile Remove="Persona.cs" />
+    <Compile Remove="Prepod.cs" />
+    <Compile Remove="Rectangle.cs" />
+    <Compile Remove="Student.cs" />
+    <Compile Remove="Triangle.cs" />
+  </ItemGroup>
+
 </Project>
