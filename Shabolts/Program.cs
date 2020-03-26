@@ -6,9 +6,9 @@ namespace ShaboltsC____
     {
         static void Main()
         {
-            string alphabetEng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            string alphabetRus = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
-            string alphabetUkr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
+            //string alphabetEng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            //string alphabetRus = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+            //string alphabetUkr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
 
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.ForegroundColor = ConsoleColor.Cyan;
