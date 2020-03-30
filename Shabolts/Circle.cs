@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Shabolts
 {
@@ -11,7 +13,7 @@ namespace Shabolts
         }
         public override double Cal_S(double r, double pi)
         {
-            S = pi * Math.Pow(r, 2);
+            S = pi*Math.Pow(r,2);
             return S;
         }
     }
